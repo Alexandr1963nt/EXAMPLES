@@ -1,0 +1,15 @@
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\bin\Debug\net6.0\Examole001_HelloConsole.exe
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\bin\Debug\net6.0\Examole001_HelloConsole.deps.json
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\bin\Debug\net6.0\Examole001_HelloConsole.runtimeconfig.json
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\bin\Debug\net6.0\Examole001_HelloConsole.dll
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\bin\Debug\net6.0\Examole001_HelloConsole.pdb
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.csproj.AssemblyReference.cache
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.AssemblyInfoInputs.cache
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.AssemblyInfo.cs
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.csproj.CoreCompileInputs.cache
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.dll
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\refint\Examole001_HelloConsole.dll
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.pdb
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\Examole001_HelloConsole.genruntimeconfig.cache
+C:\Users\atrofimenko\Documents\Обучение\GB\Языки программирования\C#\лекция 1. Знакомство с C#\Examples\Examole001_HelloConsole\obj\Debug\net6.0\ref\Examole001_HelloConsole.dll
