@@ -2,6 +2,5 @@
 
 string username = Console.ReadLine();
 
-Console.Write("Здравствуйте, ");
-
-Console.Write(username);
+//Console.Write("Здравствуйте, " + username);
+Console.Write($"Здравствуйте, {username}");
