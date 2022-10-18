@@ -1,5 +1,5 @@
 ﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-
+/*
 int randNum = new Random().Next(100, 1000);
 
 int ShowSecondDigit(int num)
@@ -12,7 +12,7 @@ return SecondDigit;
 
 int SecondDigit = ShowSecondDigit(randNum);
 Console.WriteLine($"Second digit of number{randNum} is {SecondDigit}");
-
+*/
 
 /*
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
@@ -46,7 +46,7 @@ else
 }
 */
 
-/*
+
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 Console.Write("Input a number of the day of the week - ");
 int number_day = Convert.ToInt16(Console.ReadLine());
@@ -59,7 +59,7 @@ bool if_weekend (int number_day)
 
 while (number_day < 1 || number_day > 7)
 {
-    if (number_day > 7 || number_day ==0 )
+    if (number_day < 1 || number_day > 7)
     {
     Console.WriteLine($"The number {number_day} is not correct. Try againe!");
     Console.Write("Please input a correct number of the day of the week - ");
@@ -71,4 +71,3 @@ bool weekend = if_weekend (number_day);
 if(weekend) Console.WriteLine($"День №{number_day} выходной? - Да");
 else Console.WriteLine($"День №{number_day} выходной? - Нет");
 
-*/
