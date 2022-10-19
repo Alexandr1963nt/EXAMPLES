@@ -14,12 +14,12 @@ int SecondDigit = ShowSecondDigit(randNum);
 Console.WriteLine($"Second digit of number{randNum} is {SecondDigit}");
 */
 
-/*
+
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-Console.Write("Input any int number - ");
+Console.Write("Input any int number: ");
 long num = Convert.ToInt64(Console.ReadLine());
-
+long modul = num ;
 long FindThirdDigit(long number)
 {
     long remainder = 0; // остаток
@@ -38,36 +38,36 @@ long FindThirdDigit(long number)
     return ThirdDigit; 
 }
 
-if (num < 100) Console.WriteLine($"There isn't the third digit in the number {num}");
+if (num < 0 ) modul = -1 * num ;
+if (modul < 100) Console.WriteLine($"There isn't the third digit in the number {num}");
 else 
 {
-    long ThirdDigit = FindThirdDigit(num);
+    long ThirdDigit = FindThirdDigit(modul);
     Console.WriteLine(ThirdDigit);
-}
-*/
+}   
 
 
-// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-Console.Write("Input a number of the day of the week - ");
-int number_day = Convert.ToInt16(Console.ReadLine());
+// // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+// Console.Write("Input a number of the day of the week - ");
+// int number_day = Convert.ToInt16(Console.ReadLine());
 
-bool if_weekend (int number_day)
-{
-    if ( number_day == 6 || number_day == 7 ) return true;
-    else return false;
-}
+// bool if_weekend (int number_day)
+// {
+//     if ( number_day == 6 || number_day == 7 ) return true;
+//     else return false;
+// }
 
-while (number_day < 1 || number_day > 7)
-{
-    if (number_day < 1 || number_day > 7)
-    {
-    Console.WriteLine($"The number {number_day} is not correct. Try againe!");
-    Console.Write("Please input a correct number of the day of the week - ");
-    number_day = Convert.ToInt16(Console.ReadLine());
-    }
-}
+// while (number_day < 1 || number_day > 7)
+// {
+//     if (number_day < 1 || number_day > 7)
+//     {
+//     Console.WriteLine($"The number {number_day} is not correct. Try againe!");
+//     Console.Write("Please input a correct number of the day of the week - ");
+//     number_day = Convert.ToInt16(Console.ReadLine());
+//     }
+// }
 
-bool weekend = if_weekend (number_day);
-if(weekend) Console.WriteLine($"День №{number_day} выходной? - Да");
-else Console.WriteLine($"День №{number_day} выходной? - Нет");
+// bool weekend = if_weekend (number_day);
+// if(weekend) Console.WriteLine($"День №{number_day} выходной? - Да");
+// else Console.WriteLine($"День №{number_day} выходной? - Нет");
 
