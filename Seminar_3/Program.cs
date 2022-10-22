@@ -66,22 +66,21 @@ else Console.Write($"Сорян. Число {number} не является па�
 // Console.Write($"Расстояние A-B в 3D пространстве = ");
 // Console.WriteLine($"{Math.Round(distance, 2)}");
 
-
 // Задача 23 - ГОТОВО
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел
 // от 1 до N.
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-// void table_cub_num(int number)
-// {
-//     Console.Write($"{number} -> ");
-//     for (int num = 1; num <= number; num++)
-//     {
-//         if(num < number) Console.Write($"{num*num*num}, ");
-//         else Console.Write($"{num*num*num} ");
-//     }
-// }
+void table_cub_num(int number)
+{
+    Console.Write($"{number} -> ");
+    for (int num = 1; num <= number; num++)
+    {
+        if(num < number) Console.Write($"{num*num*num}, ");
+        else Console.Write($"{num*num*num} ");
+    }
+}
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // table_cub_num(number);

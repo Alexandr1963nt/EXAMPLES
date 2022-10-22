@@ -1,7 +1,7 @@
 ﻿
         // Задача 1
         Console.Clear();
-        
+/*        
         Console.Write("Введи число - ");
         int num = Convert.ToInt16(Console.ReadLine());
         //string num = Console.ReadLine();
@@ -11,7 +11,7 @@
 
         Console.WriteLine("Привет," + num + "! Как дела?");
         //Console.WriteLine($"Ты ввел {num} И это гуд!");
-/*
+
         int result = num * num;
         Console.WriteLine($"Квадрат числа {num} равен {result}");
         
@@ -51,3 +51,30 @@ int num = Convert.ToInt32(Console.ReadLine());
 int result = num % 10;
 Console.WriteLine($"Последняя цифра {num} равна {result}");
 */
+
+void FillArray(int[] collection)
+{
+int length = collection.Length;
+int index = 0;
+while (index < length)
+{
+collection[index] = new Random().Next(1, 900);
+index++;
+}
+}
+
+void PrintArray(int[] coll)
+{
+int length = coll.Length;
+int position = 0;
+while (position < length)
+{
+Console.WriteLine(coll[position]);
+position++;
+}
+}
+
+int[] array = new int[9];
+
+FillArray(array);
+PrintArray(array);

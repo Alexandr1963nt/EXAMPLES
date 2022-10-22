@@ -25,7 +25,7 @@ int max1 = Max(a1, b1, c1);
 int max2 = Max(a2, b2, c2);
 int max3 = Max(a3, b3, c3);
 
-// мвссив
+// найти в мвссиве номер позиции заданного числа 4
 int [] array = {2, 4, 5, 7, 4, 67, 34, 31, 99};
 
 int n = array.Length;
