@@ -5,31 +5,31 @@
 // 12821 -> да
 // 23432 -> да
 
-bool check_palindrome5 (int num)
-{
-    int num1 = num/10000;
-    int num2 = num/1000 - 10*(num/10000);
-    int num3 = num/100 - 10*(num/1000);
-    int num4 = num/10 - 10*(num/100);
-    int num5 = num % 10;
-    
-    if (num1 == num5 & num2 == num4) return true;
-    else return false;
-}
-// Ввод числа
-Console.Write("Введите 5-значное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-// Проверка 5-значности числа
-while (Math.Abs(number)/10000 < 1 | Math.Abs(number)/10000 > 9)
-{
-    Console.WriteLine($"{number} не 5-значное! Повторите ввод");
-    Console.Write("Введите 5-значное число: ");
-    number = Convert.ToInt32(Console.ReadLine());
-}
-// Проверка палиндрома и вывод результата
-bool rezult = check_palindrome5 (number);
-if (rezult) Console.Write($"Ура!! Число {number} является палиндромом");
-else Console.Write($"Сорян. Число {number} не является палиндромом");
+// bool check_palindrome5 (int num)
+// {
+//     int num1 = num/10000;
+//     int num2 = num/1000 - 10*(num/10000);
+//     int num3 = num/100 - 10*(num/1000);
+//     int num4 = num/10 - 10*(num/100);
+//     int num5 = num % 10;
+
+//     if (num1 == num5 & num2 == num4) return true;
+//     else return false;
+// }
+// // Ввод числа
+// Console.Write("Введите 5-значное число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// // Проверка 5-значности числа
+// while (Math.Abs(number)/10000 < 1 | Math.Abs(number)/10000 > 9)
+// {
+//     Console.WriteLine($"{number} не 5-значное! Повторите ввод");
+//     Console.Write("Введите 5-значное число: ");
+//     number = Convert.ToInt32(Console.ReadLine());
+// }
+// // Проверка палиндрома и вывод результата
+// bool rezult = check_palindrome5 (number);
+// if (rezult) Console.Write($"Ура!! Число {number} является палиндромом");
+// else Console.Write($"Сорян. Число {number} не является палиндромом");
 
 // Задача 21 ГОТОВО
 // Напишите программу, которая принимает на вход координаты двух точек и находит 
@@ -75,12 +75,12 @@ else Console.Write($"Сорян. Число {number} не является па�
 void table_cub_num(int number)
 {
     Console.Write($"{number} -> ");
-    for (int num = 1; num <= number; num++)
+    for (int num = 1; num < number; num++)
     {
-        if(num < number) Console.Write($"{num*num*num}, ");
-        else Console.Write($"{num*num*num} ");
+        Console.Write($"{num * num * num}, ");
     }
+    Console.Write($"{number * number * number}");
 }
-// Console.Write("Введите число: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-// table_cub_num(number);
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+table_cub_num(number);
