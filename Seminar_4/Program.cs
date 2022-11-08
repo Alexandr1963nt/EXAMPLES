@@ -54,30 +54,30 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-int[] CreateArray(int length)   // Метод - заполнение массива заданной длины
-{
-    int[] array = new int[length];
-    for (int i = 0; i < length; i++)
-    {
-        array[i] = new Random().Next(1, 100);
-    }
-    return array;
-}
+// int[] CreateArray(int length)   // Метод - заполнение массива заданной длины
+// {
+//     int[] array = new int[length];
+//     for (int i = 0; i < length; i++)
+//     {
+//         array[i] = new Random().Next(1, 100);
+//     }
+//     return array;
+// }
 
-void PrintArray(int[] array)        // Метод - вывода массива на экран
-{
-    Console.Write("[");
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($"{array[i]}, ");
-    }
-    Console.WriteLine("\b\b]");
-}
+// void PrintArray(int[] array)        // Метод - вывода массива на экран
+// {
+//     Console.Write("[");
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write($"{array[i]}, ");
+//     }
+//     Console.WriteLine("\b\b]");
+// }
 
-Console.Write("Введите длину нового массива: ");
-int LenghtOfArray = Convert.ToInt32(Console.ReadLine());
-// int[] NewArr = CreateArray(LenghtOfArray);
-// Console.Write("Создан массив и записан в переменную NewArr");
-// PrintArray(NewArr);       // Для проверки вывода через промежуточную переменную
-Console.Write("Создан новый массив ");
-PrintArray(CreateArray(LenghtOfArray));     // Для проверки вывода "слёту"
+// Console.Write("Введите длину нового массива: ");
+// int LenghtOfArray = Convert.ToInt32(Console.ReadLine());
+// // int[] NewArr = CreateArray(LenghtOfArray);
+// // Console.Write("Создан массив и записан в переменную NewArr");
+// // PrintArray(NewArr);       // Для проверки вывода через промежуточную переменную
+// Console.Write("Создан новый массив ");
+// PrintArray(CreateArray(LenghtOfArray));     // Для проверки вывода "слёту"
